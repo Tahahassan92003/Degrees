@@ -1,2 +1,4 @@
 # Degrees
 The Degrees of Separation - IMDB Actors Network 
+
+The Degrees of Separation - IMDB Actors Network project is a Python-based program that finds the shortest connection between two actors based on shared movie appearances. It reads IMDB data from CSV files and constructs a graph where actors are nodes and movies serve as edges connecting them. Using Breadth-First Search (BFS), the program efficiently determines the shortest path between two actors, displaying the number of degrees of separation and the movies linking them. Users input two actor names, and the program resolves ambiguities if multiple actors share the same name. If a connection exists, it prints the sequence of movies and co-stars leading from one actor to the other. This project highlights the power of graph traversal algorithms in real-world applications, offering an engaging way to explore relationships in the film industry.
